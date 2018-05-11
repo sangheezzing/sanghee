@@ -5,11 +5,13 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
+import org.springframework.stereotype.Repository;
 
 import com.springbook.biz.common.JDBCUtil;
 import com.springbook.biz.user.UserVO;
 //DAO(Data Access Object)
-
+//@Repository-> 데이터베이스 연동을 처리하는 DAO 클래스 몬 개소리야?
+@Repository("userDAO")
 public class UserDAO {
 	//JDBC 관련 변수
 	private Connection conn = null;
