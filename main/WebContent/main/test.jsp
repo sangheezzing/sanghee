@@ -254,12 +254,24 @@
 		</div>
 	</div>
 <div id="footer">
-	<div id="footer_inner_top">
-		<div id="footer_info_top"></div>
-	</div>
-	<div id="footer_inner_bottom">
-		<div id="footer_info_bottom"></div>
-	</div>
+	<div id="footer_inner">
+		<div id="footer_logo">
+			<a href="#"><img alt="" src="http://image2.megabox.co.kr/mop/home/logo_footer_new.png"></a>
+		</div>
+		<ul id="footer_info">
+			<li><a href="#">회사소개</a></li>
+			<li><a href="#">채용정보</a></li>
+			<li><a href="#">제휴/광고/부대사업 문의</a></li>
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#">개인정보 처리방침</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+		<div id="text">
+		서울특별시 강남구 도산대로 156, 2층 메가박스(주) (논현동, 중앙엠앤비사옥)<br>
+		대표자명 김진선 | 개인정보보호 책임자 경영지원실 실장 박영진<br>
+		사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호
+		</div>
+	</div>	
 </div>
 </body>
 </html>
