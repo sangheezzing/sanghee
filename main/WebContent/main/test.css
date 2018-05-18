@@ -1,0 +1,36 @@
+*{margin: 0;}
+#header{width: 100%; background-color: black;}
+#header_inner{width: 1200px; position: relative; margin: 0 auto; padding: 20px;}
+#logo{position: absolute;}
+#logo img{width: 300px; height: 50px;}
+#nav{text-align: center;}
+#nav ul{list-style: none; padding: 0; position: absolute; left: 30%; }
+#nav ul li{display: inline; line-height: 50px; padding:0 10px 0 10px;}
+#nav ul li a{color: white; text-decoration: none; font-weight: bold;}
+#nav ul li a:hover {text-decoration: underline;}
+#login ul{padding: 0; text-align: right; padding: 0;}
+#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
+#login ul li a{color: white; text-decoration: none;}
+#login ul li a:hover {text-decoration: underline;}
+#content{text-align: center; margin-top: 50px;}
+#content ul{list-style: none;}
+#content ul li{display: inline; padding: 0 30px 0 30px;}
+#content ul li a{color: black; text-decoration: none;}
+#content ul li a:hover {text-decoration: underline; color: red;}
+#content_box1{padding: 80px 30px 30px 50px; display: block; overflow: hidden;}
+#content_box2{padding: 80px 30px 30px 50px; display: none; overflow: hidden;}
+#content_box3{padding: 80px 30px 30px 50px; display: none; overflow: hidden;}
+#content_inner{width: 1280px; margin: 0 auto;}
+.boxoffice_poster{list-style: none; padding: 0;}
+.boxoffice_poster li{float: left; padding: 0 20px 0 20px;}
+.boxoffice_poster_div{text-align: center;}
+.main_moviename{margin: 15px 0 15px 0;}
+/*event*/
+#event{width: 100%; position: relative; padding: 70px 0 80px;}
+#evnet_inner{width: 970px; position: relative; margin: 0 auto;}
+#event_box1{width: 632px; height: 317px; background-color: blue; position: relative;}
+#event_box2{width: 632px; height: 315px; background-color: red; position: relative;}
+#evnet_box3{width: 327px; height:632px; background-color: green; position: absolute; right: 0; top: 0;}
+/*footer*/
+#footer{width: 100%; height: 300px; background-color: gray; clear: both; margin-top: 100px;}
+
