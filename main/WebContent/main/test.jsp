@@ -254,7 +254,12 @@
 		</div>
 	</div>
 <div id="footer">
-
+	<div id="footer_inner_top">
+		<div id="footer_info_top"></div>
+	</div>
+	<div id="footer_inner_bottom">
+		<div id="footer_info_bottom"></div>
+	</div>
 </div>
 </body>
 </html>

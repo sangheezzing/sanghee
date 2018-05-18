@@ -29,8 +29,10 @@
 #event{width: 100%; position: relative; padding: 70px 0 80px;}
 #evnet_inner{width: 970px; position: relative; margin: 0 auto;}
 #event_box1{width: 632px; height: 317px; background-color: blue; position: relative;}
-#event_box2{width: 632px; height: 315px; background-color: red; position: relative;}
-#evnet_box3{width: 327px; height:632px; background-color: green; position: absolute; right: 0; top: 0;}
+#event_box2{width: 632px; height: 315px; background-color:red; position: relative;}
+#event_box3{width: 327px; height:632px; background-color: green; position: absolute; right: 0; top: 0;}
+#event2_right{width: 315px; height: 315px; background-color: gray; position: absolute; right: 0;}
+#event_box2 #evnet2_left{width: 315px; height: 315px; background-color: purple;}
 /*footer*/
-#footer{width: 100%; height: 300px; background-color: gray; clear: both; margin-top: 100px;}
+#footer{width: 100%; background-color: gray; clear: both; margin-top: 100px;}
 
