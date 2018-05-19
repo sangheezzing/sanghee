@@ -21,3 +21,8 @@ if(a==3){
 	content1.style.display = 'none';
 }
 }
+function popupOpen(){
+	var popUrl = "popup.jsp";
+	var popOption = "width=370,height=360,resizable=no,status=no;";
+		window.open(popUrl,"",popOption);
+}

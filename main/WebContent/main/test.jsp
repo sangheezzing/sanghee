@@ -7,14 +7,19 @@
 <title>test</title>
 <link rel="stylesheet" type="text/css" href="test.css">
 <script src="./js/main.js"></script>
-
+<script>
+function popupOpen(){
+	var popUrl = "popup.jsp";
+	var popOption = "width=370, height=360, resizable=no, scrollbars=no, status=no;";
+		window.open(popUrl,"",popOption);
+}
+</script>
 </head>
 <body>
 	<div id="header">
 		<div id="header_inner">
 			<div id="logo">
-				<img alt=""
-					src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
+				<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
 			</div>
 			<div id="nav">
 				<ul>
@@ -28,8 +33,8 @@
 			</div>
 			<div id="login">
 				<ul>
-					<li><a href="#">로그인</a></li>
-					<li><a href="#">회원가입</a></li>
+					<li><a href="javascript:popupOpen();">로그인</a></li>
+					<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
 				</ul>
 			</div>
 		</div>
@@ -244,7 +249,9 @@
 	<div id="event">
 		<div id="evnet_inner">
 			<div id="main_event">
-				<div id="event_box1"></div>
+				<div id="event_box1">
+					<a href="#"><img alt="" title="엑박인가..." src="./test.PNG"></a>
+				</div>
 				<div id="event_box2">
 					<div id="event2_right"></div>
 					<div id="evnet2_left"></div>
@@ -266,10 +273,13 @@
 			<li><a href="#">개인정보 처리방침</a></li>
 			<li><a href="#">고객센터</a></li>
 		</ul>
-		<div id="text">
+		<div id="text1">
 		서울특별시 강남구 도산대로 156, 2층 메가박스(주) (논현동, 중앙엠앤비사옥)<br>
 		대표자명 김진선 | 개인정보보호 책임자 경영지원실 실장 박영진<br>
 		사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호
+		</div>
+		<div id="text2">
+		Copyright 2014 by MEGABOX. All rights reserved
 		</div>
 	</div>	
 </div>

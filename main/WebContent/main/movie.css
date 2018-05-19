@@ -1,14 +1,21 @@
 *{margin: 0}
-#header{width: 100%; text-align: center; border-bottom: 1px solid black; position: relative;}
-#menu{text-decoration: none; padding:0; list-style: none;}
-#menu li{display: inline; padding: 0 5px 0 5px; font-size: 30px;}
-#menu li a{text-decoration:none; color: black;}
-#menu li a:hover{text-decoration: underline;}
-#login{position: absolute; right:0;}
-#login_form{padding: 0px; }
-#login_form li{display: inline;}
-#login_form li a{text-decoration: none; color: black; padding: 0 10px 0 10px;}
-#login_form li a:hover{text-decoration: underline;}
+/*header*/
+#header{width: 100%; background-color: black;}
+#header_inner{width: 1200px; position: relative; margin: 0 auto; padding: 20px;}
+#logo{position: absolute;}
+#logo img{width: 300px; height: 50px;}
+/*menu bar*/
+#nav{text-align: center;}
+#nav ul{list-style: none; padding: 0; position: absolute; left: 30%; }
+#nav ul li{display: inline; line-height: 50px; padding:0 10px 0 10px;}
+#nav ul li a{color: white; text-decoration: none; font-weight: bold;}
+#nav ul li a:hover {text-decoration: underline;}
+/*login*/
+#login ul{padding: 0; text-align: right; padding: 0;}
+#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
+#login ul li a{color: white; text-decoration: none;}
+#login ul li a:hover {text-decoration: underline;}
+/*main*/
 #main{width: 100%;}
 #main_inner{width: 1100px; margin:auto;}
 #poster{padding: 0;}

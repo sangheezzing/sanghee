@@ -6,24 +6,30 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 <link rel= "stylesheet" type="text/css" href="movie.css">
+
 </head>
 <body>
 <div id="header">
-	<div id="nav">
-		<div id="login">
-			<ul id="login_form">
-				<li><a href="#">로그인</a></li>
-				<li><a href="#">회원가입</a></li>
+	<div id="header_inner">
+		<div id="logo">
+			<a href="#"><img id="logo_img" src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif"></a>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="#">예매</a></li>
+				<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
+				<li><a href="#">영화관</a></li>
+				<li><a href="#">이벤트</a></li>
+				<li><a href="#">공지사항</a></li>
+				<li><a href="#">고객센터</a></li>
 			</ul>
 		</div>
-	<a href="#"><img id="logo_img" src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif"></a>
-		<ul id="menu">
-			<li><a href="#">영화</a></li>
-			<li><a href="#">상영관</a></li>
-			<li><a href="#">test</a></li>
-			<li><a href="#">test</a></li>
-			<li><a href="#">test</a></li>
-		</ul>
+		<div id="login">
+			<ul>
+				<li><a href="#">로그인</a></li>
+				<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
 <div id="main">
