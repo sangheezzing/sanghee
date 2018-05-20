@@ -52,6 +52,9 @@
             <div class="form-group">
               <label for="InputEmail">아이디</label>
               <input type="text" class="form-control" id="InputEmail" placeholder="아이디를 입력해 주세요.">
+              <span class="log-btn">
+              	<button class="btn btn-success"><i class="fa fa-mail-forward spaceLeft">중복체크</i></button>
+			  </span>
             </div>
             <div class="form-group">
               <label for="InputPassword1">비밀번호</label>
