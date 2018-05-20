@@ -5,14 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-<link rel= "stylesheet" type="text/css" href="movie.css">
+<link rel= "stylesheet" type="text/css" href="test.css">
 
 </head>
 <body>
 <div id="header">
 	<div id="header_inner">
 		<div id="logo">
-			<a href="#"><img id="logo_img" src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif"></a>
+			<a href="http://localhost:8080/main/main/test.jsp"><img id="logo_img" src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif"></a>
 		</div>
 		<div id="nav">
 			<ul>
@@ -55,6 +55,29 @@
 		</div>
 	</div>
 </div>
-
+<!-- footer -->
+<div id="footer">
+	<div id="footer_inner">
+		<div id="footer_logo">
+			<a href="#"><img alt="" src="http://image2.megabox.co.kr/mop/home/logo_footer_new.png"></a>
+		</div>
+		<ul id="footer_info">
+			<li><a href="#">회사소개</a></li>
+			<li><a href="#">채용정보</a></li>
+			<li><a href="#">제휴/광고/부대사업 문의</a></li>
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#">개인정보 처리방침</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+		<div id="text1">
+		서울특별시 강남구 도산대로 156, 2층 메가박스(주) (논현동, 중앙엠앤비사옥)<br>
+		대표자명 김진선 | 개인정보보호 책임자 경영지원실 실장 박영진<br>
+		사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호
+		</div>
+		<div id="text2">
+		Copyright 2014 by MEGABOX. All rights reserved
+		</div>
+	</div>	
+</div>
 </body>
 </html>

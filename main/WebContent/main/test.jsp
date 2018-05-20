@@ -10,8 +10,8 @@
 <script>
 function popupOpen(){
 	var popUrl = "popup.jsp";
-	var popOption = "width=370, height=360, resizable=no, scrollbars=no, status=no;";
-		window.open(popUrl,"",popOption);
+	var popOption = "width=370, height=360, resizable=no, scrollbars=no, status=no, left=500;";
+		window.open(popUrl,"popup~~~",popOption);
 }
 </script>
 </head>
@@ -19,7 +19,9 @@ function popupOpen(){
 	<div id="header">
 		<div id="header_inner">
 			<div id="logo">
-				<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
+				<a href="http://localhost:8080/main/main/test.jsp">
+					<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
+				</a>
 			</div>
 			<div id="nav">
 				<ul>
@@ -60,61 +62,63 @@ function popupOpen(){
 				<li>
 					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://ticketimage.interpark.com/rz/image/play/goods/poster/18/18004552_p_s.jpg"
-								width="232px" height="336px">
+							<img src="http://ticketimage.interpark.com/rz/image/play/goods/poster/18/18004552_p_s.jpg"
+							 width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
 					</div>
 				</li>
-				<li><div class="boxoffice_poster_div">
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
+					</div>
+				</li>
 			</ul>
 		</div>
 		<!-- 현재상영작 -->
@@ -123,61 +127,63 @@ function popupOpen(){
 				<li>
 					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
 					</div>
 				</li>
-				<li><div class="boxoffice_poster_div">
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
+					</div>
+				</li>
 			</ul>
 		</div>
 		
@@ -187,36 +193,37 @@ function popupOpen(){
 				<li>
 					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
 					</div>
 				</li>
-				<li><div class="boxoffice_poster_div">
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
+							<img 
 								src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg"
 								width="232px" height="336px">
 						</div>
@@ -224,24 +231,26 @@ function popupOpen(){
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
-				<li><div class="boxoffice_poster_div">
+					</div>
+				</li>
+				<li>
+					<div class="boxoffice_poster_div">
 						<div>
-							<img alt=""
-								src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
 								width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
 						</div>
 						<div>
-							<input type="button" value="예매하기">&nbsp;<input
-								type="button" value="상세보기">
+							<input type="button" value="예매하기">&nbsp;
+							<input type="button" value="상세보기">
 						</div>
-					</div></li>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -250,7 +259,7 @@ function popupOpen(){
 		<div id="evnet_inner">
 			<div id="main_event">
 				<div id="event_box1">
-					<a href="#"><img alt="" title="엑박인가..." src="./test.PNG"></a>
+					<a href="#"><img src="./test.PNG"></a>
 				</div>
 				<div id="event_box2">
 					<div id="event2_right"></div>
