@@ -33,18 +33,24 @@
 /*°øÅë css ³¡*/
 
 
+#content_inner{width: 1088px; margin: 0 auto;}
+
+#content_box1{width:1088px; overflow: hidden;}
+#content_box2{width:1088px; overflow: hidden;}
+#content_box3{width:1088px; overflow: hidden;}
+
+.boxoffice_poster{overflow: hidden; list-style: none; padding: 0; width: 100%;}
+.boxoffice_poster li{float:left;display:table-cell; padding: 0 20px 0 20px;}
+.boxoffice_poster_div{text-align: center;}
+
 #content{text-align: center; margin-top: 50px;}
-#content ul{list-style: none;}
+#content ul{overflow: hidden; list-style: none;}
+
 #content ul li{display: inline; padding: 0 30px 0 30px;}
 #content ul li a{color: black; text-decoration: none;}
 #content ul li a:hover {text-decoration: underline; color: red;}
-#content_box1{padding: 80px 30px 30px 50px; display: block; overflow: hidden;}
-#content_box2{padding: 80px 30px 30px 50px; display: none; overflow: hidden;}
-#content_box3{padding: 80px 30px 30px 50px; display: none; overflow: hidden;}
-#content_inner{width: 100%; max-width:1280px; margin: 0 auto;}
-.boxoffice_poster{list-style: none; padding: 0;}
-.boxoffice_poster li{float:left;display:table-cell; padding: 0 20px 0 20px;}
-.boxoffice_poster_div{text-align: center;}
+
+
 .main_moviename{margin: 15px 0 15px 0;}
 #test{
 }
