@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>test</title>
+<title>메인페이지</title>
 <link rel="stylesheet" type="text/css" href="test.css">
 <script src="./js/main.js"></script>
 <script>
@@ -16,6 +16,7 @@ function popupOpen(){
 </script>
 </head>
 <body>
+<!-- header -->
 	<div id="header">
 		<div id="header_inner">
 			<div id="logo">
@@ -25,10 +26,10 @@ function popupOpen(){
 			</div>
 			<div id="nav">
 				<ul>
-					<li><a href="#">예매</a></li>
+					<li><a href="http://localhost:8080/main/main/reserve.jsp">예매</a></li>
 					<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
 					<li><a href="#">영화관</a></li>
-					<li><a href="#">이벤트</a></li>
+					<li><a href="http://localhost:8080/main/main/header.jsp#">이벤트</a></li>
 					<li><a href="#">공지사항</a></li>
 					<li><a href="#">고객센터</a></li>
 				</ul>
@@ -107,8 +108,7 @@ function popupOpen(){
 				<li>
 					<div class="boxoffice_poster_div">
 						<div>
-							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
-								width="232px" height="336px">
+							<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg" width="232px" height="336px">
 						</div>
 						<div class="main_moviename">
 							<p>어벤져스</p>
@@ -119,6 +119,7 @@ function popupOpen(){
 						</div>
 					</div>
 				</li>
+				
 			</ul>
 		</div>
 		<!-- 현재상영작 -->

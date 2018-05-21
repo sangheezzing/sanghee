@@ -49,26 +49,33 @@
         </div>
         <div class="col-md-6 col-md-offset-3">
           <form role="form">
+          <!-- 아이디 -->
             <div class="form-group">
               <label for="InputEmail">아이디</label>
               <input type="text" class="form-control" id="InputEmail" placeholder="아이디를 입력해 주세요.">
-              <span class="log-btn">
-              	<button class="btn btn-success"><i class="fa fa-mail-forward spaceLeft">중복체크</i></button>
-			  </span>
+              <span class="input-group-btn">
+                  <button class="btn btn-login">중복 체크<i class="fa fa-mail-forward spaceLeft"></i></button>
+              </span>
+             <div id="idMsg" class="error">필수 정보입니다.</div>
             </div>
+            <!-- 비밀번호 -->
             <div class="form-group">
               <label for="InputPassword1">비밀번호</label>
               <input type="password" class="form-control" id="InputPassword1" placeholder="비밀번호">
             </div>
+            <div id="idMsg" class="error">필수 정보입니다.</div>
+            <!-- 비밀번호확인 -->
             <div class="form-group">
               <label for="InputPassword2">비밀번호 확인</label>
               <input type="password" class="form-control" id="InputPassword2" placeholder="비밀번호 확인">
               <p class="help-block">비밀번호 확인을 위해 다시한번 입력 해 주세요</p>
             </div>
+            <!-- 이름 -->
             <div class="form-group">
               <label for="username">이름</label>
               <input type="text" class="form-control" id="username" placeholder="이름을 입력해 주세요">
             </div>
+            <div id="idMsg" class="error">필수 정보입니다.</div>
             <!-- 여기서부터 내가 추가한거 -->
             
   				<label for="username">남자</label>
@@ -79,7 +86,9 @@
 			<div class="form-group">
 				<input type="date" class="form-control">
 			</div>
+			<!-- 생년월일 -->
             <!-- end -->
+            <!-- 이메일 -->
             <div class="form-group">
               <label for="username">이메일 인증</label>
               <div class="input-group">
@@ -89,6 +98,7 @@
                 </span>
               </div>
             </div>
+            <!-- 인증번호 -->
             <div class="form-group">
               <label for="username">인증번호 입력</label>
               <div class="input-group">
