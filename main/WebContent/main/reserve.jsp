@@ -22,7 +22,7 @@
 					<li><a href="#">예매</a></li>
 					<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
 					<li><a href="#">영화관</a></li>
-					<li><a href="#">이벤트</a></li>
+					<li><a href="http://localhost:8080/main/main/event.jsp">이벤트</a></li>
 					<li><a href="#">공지사항</a></li>
 					<li><a href="#">고객센터</a></li>
 				</ul>
@@ -51,7 +51,7 @@
 		<div id="reserve-choice">
 			<h2>영화선택</h2>
 			<div id="reserve-choice-poster">
-				<ul>
+				<ul class="">
 					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
 					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
 					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>

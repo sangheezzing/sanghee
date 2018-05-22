@@ -32,7 +32,7 @@
 #text2{color: white; font-size: 12px; position: absolute; right: 0;bottom: 40px;}
 /*공통 css 끝*/
 
-
+/*test.jsp*/
 #content_inner{width: 1088px; margin: 0 auto;}
 
 #content_box1{width:1088px; overflow: hidden;}
@@ -62,7 +62,13 @@
 #event_box3{width: 327px; height:632px; background-color: green; position: absolute; right: 0; top: 0;}
 #event2_right{width: 315px; height: 315px; background-color: gray; position: absolute; right: 0;}
 #event_box2 #evnet2_left{width: 315px; height: 315px; background-color: purple;}
-/*---------------------------예매------------------------------- */
+.main-eventbox-event{width: 100%; height: 100%;}
+/*---------------------------movie.jsp----------------------------------*/
+#poster-wrapper{padding: 0; list-style: none;}
+.poster-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid black;}
+.poster-item-img{width: 100%;}
+/*---------------------------reserve.jsp------------------------------- */
+#reserve-main-inner{width: 1040px; margin: auto;}
 #reserve-top-text{position: relative; border-bottom: 1px solid; padding-bottom: 15px;}
 #p2{right: 0; position: absolute;}
 .reserve-p{display: inline; font-weight: lighter; font-size: 13px;}
@@ -71,15 +77,15 @@
 #reserve-choice-poster ul{padding: 0; list-style: none;}
 #reserve-choice-poster ul li{display: inline; overflow: scroll;}
 #reserve-choice-poster ul li img{width: 232px; height: 336px;}
-/*---------------------------이벤트------------------------------  */
+/*---------------------------event.jsp------------------------------  */
 #event-main-text{border-bottom: 1px solid; padding: 10px;}
-#event-container{margin-top: 30px; margin-bottom: 80px;}
-#event-container-inner{padding-top: 30px; padding-bottom: 30px;}
-#event-list{width: 1000px; margin: 0 auto;}
+#event-container{margin-top: 30px; margin-bottom: 80px; overflow: hidden;}
+#event-container-inner{padding-top: 30px; padding-bottom: 30px; overflow: hidden;}
+#event-list{width: 1000px; margin: 0 auto; overflow: hidden;}
 #event-wrapper{list-style: none; padding: 0; display: inline;}
 .event-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid black;}
 .event-img{width: 100%;}
+#test11{width: 100%; background-color: #f9f9f9; color: #666; border: none; height: 45px; margin: 20px auto 0; font-size: 18px;}
 
-#poster{padding: 0;}
-#poster li{text-decoration: none; float: left; padding: 10px; list-style: none; margin-bottom: 50px;}
+
 

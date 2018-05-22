@@ -44,7 +44,7 @@
 	<div id="event-container">
 		<div id="event-container-inner">
 				<div id="event-list">
-				 	<ul id="event-wrapper">
+				 	<ul id="event-wrapper" class="ul-wrapper">
 				 		<li class="event-item">
 				 			<a href="#">
 				 				<img class="event-img" src="http://image2.megabox.co.kr/mop/event/2018/81/D95684-AD56-4097-A25A-038D1FA9DF35.jpg">
@@ -94,7 +94,11 @@
 				 			<span class="title">메가해디 페이즈!</span>
 				 		</li>
 				 	</ul>
+				 	<div>
+					<button id="test11">더보기</button>
+					</div>
 				</div>
+				
 		</div>
 	</div>
 </div>	

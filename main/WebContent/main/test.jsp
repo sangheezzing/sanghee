@@ -29,7 +29,7 @@ function popupOpen(){
 					<li><a href="http://localhost:8080/main/main/reserve.jsp">예매</a></li>
 					<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
 					<li><a href="#">영화관</a></li>
-					<li><a href="http://localhost:8080/main/main/header.jsp#">이벤트</a></li>
+					<li><a href="http://localhost:8080/main/main/event.jsp">이벤트</a></li>
 					<li><a href="#">공지사항</a></li>
 					<li><a href="#">고객센터</a></li>
 				</ul>
@@ -260,13 +260,25 @@ function popupOpen(){
 		<div id="evnet_inner">
 			<div id="main_event">
 				<div id="event_box1">
-					<a href="#"><img src="./test.PNG"></a>
+					<a href="#"><img class="main-eventbox-event" src="http://image2.megabox.co.kr/mop/home/main/630x315/180517_deadpool_630_315.jpg"></a>
 				</div>
 				<div id="event_box2">
-					<div id="event2_right"></div>
-					<div id="evnet2_left"></div>
+					<div id="event2_right">
+						<a href="#">
+							<img class="main-eventbox-event" alt="이벤트 박스2 오른쪽" src="http://image2.megabox.co.kr/mop/home/main/315X315/160321_store_315x315.jpg">
+						</a>
+					</div>
+					<div id="evnet2_left">
+						<a href="#">
+							<img class="main-eventbox-event" alt="이벤트 박스2 왼쪽" src="http://image2.megabox.co.kr/mop/home/main/315X315/180515_avenm_315x315.jpg">
+						</a>
+					</div>
 				</div>
-				<div id="event_box3"></div>
+				<div id="event_box3">
+					<a href="#">
+						<img class="main-eventbox-event" alt="이벤트 박스3" src="http://image2.megabox.co.kr/mop/home/ad/330x630/180517_vip_330x630.jpg">
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
