@@ -55,11 +55,6 @@
 						<input type="submit" value="로그인" /> 
 						<input type="button" value="회원가입"/>
 					</p>  
-					<div id="naver_id_login" style="text-align:center">
-							<a href="#">
-								<img width="150" src="https://developers.naver.com/doc/review_201802/CK_bEFnWMeEBjXpQ5o8N_20180202_7aot50.png"/>
-							</a>
-						</div>
 				</form>
 			</div>
 		</div>

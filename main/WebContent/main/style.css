@@ -6,20 +6,24 @@
 #header_inner{width: 1200px; position: relative; margin: 0 auto; padding: 20px;}
 #logo{position: absolute;}
 #logo img{width: 300px; height: 50px;}
-/*menu bar*/
+
+/*header-login*/
+#login ul{padding: 0; text-align: right; padding: 0;}
+#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
+#login ul li a{color: white; text-decoration: none;}
+#login ul li a:hover {text-decoration: underline;}
+
+/*header-menu bar*/
 #nav{text-align: center;}
 #nav ul{list-style: none; padding: 0; position: absolute; left: 30%; }
 #nav ul li{display: inline; line-height: 50px; padding:0 10px 0 10px;}
 #nav ul li a{color: white; text-decoration: none; font-weight: bold;}
 #nav ul li a:hover {text-decoration: underline;}
-/*login*/
-#login ul{padding: 0; text-align: right; padding: 0;}
-#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
-#login ul li a{color: white; text-decoration: none;}
-#login ul li a:hover {text-decoration: underline;}
+
 /*main*/
 #main{width: 100%;}
 #main_inner{width: 1100px; margin:auto;}
+
 /*footer*/
 #footer{width: 100%; background-color: black; clear: both; margin-top: 100px;}
 #footer_inner{width: 970px; margin: 0 auto; padding: 30px 0 40px; line-height: 20px; position:relative;};
@@ -32,7 +36,9 @@
 #text2{color: white; font-size: 12px; position: absolute; right: 0;bottom: 40px;}
 /*°øÅë css ³¡*/
 
-/*test.jsp*/
+
+
+/*-----------------------------Index.jsp------------------------------------*/
 #content_inner{width: 1088px; margin: 0 auto;}
 
 #content_box1{width:1088px; overflow: hidden;}
@@ -54,7 +60,7 @@
 .main_moviename{margin: 15px 0 15px 0;}
 #test{
 }
-/*event*/
+/*Index.jsp-event*/
 #event{width: 100%; position: relative; padding: 70px 0 80px;}
 #evnet_inner{width: 970px; position: relative; margin: 0 auto;}
 #event_box1{width: 632px; height: 317px; background-color: blue; position: relative;}
@@ -63,10 +69,13 @@
 #event2_right{width: 315px; height: 315px; background-color: gray; position: absolute; right: 0;}
 #event_box2 #evnet2_left{width: 315px; height: 315px; background-color: purple;}
 .main-eventbox-event{width: 100%; height: 100%;}
+
 /*---------------------------movie.jsp----------------------------------*/
 #poster-wrapper{padding: 0; list-style: none;}
-.poster-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid black;}
+.poster-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid #d9d9d9;}
 .poster-item-img{width: 100%;}
+.poster-img-text{font-size: 20px; font-weight: 700;}
+
 /*---------------------------reserve.jsp------------------------------- */
 #reserve-main-inner{width: 1040px; margin: auto;}
 #reserve-top-text{position: relative; border-bottom: 1px solid; padding-bottom: 15px;}
@@ -77,18 +86,34 @@
 #reserve-choice-poster ul{padding: 0; list-style: none;}
 #reserve-choice-poster ul li{display: inline; overflow: scroll;}
 #reserve-choice-poster ul li img{width: 232px; height: 336px;}
-/*---------------------------event.jsp------------------------------  */
+
+/*---------------------------eventList.jsp------------------------------  */
 #event-main-text{border-bottom: 1px solid; padding: 10px;}
 #event-container{margin-top: 30px; margin-bottom: 80px; overflow: hidden;}
 #event-container-inner{padding-top: 30px; padding-bottom: 30px; overflow: hidden;}
 #event-list{width: 1000px; margin: 0 auto; overflow: hidden;}
 #event-wrapper{list-style: none; padding: 0; display: inline;}
-.event-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid black;}
+.event-item{width: 232px; height: 448px; float: left; margin: 7px; border: 1px solid #d9d9d9;}
+.event-item a{text-decoration: none; color: black;}
+.event-item a span{padding: 0 12px;}
+.event-item a span.title{height: 56px; font-size: 20px; font-weight: 700; margin:17px 0 20px; overflow: hidden; display: -webkit-box;}
+
 .event-img{width: 100%;}
 #test11{width: 100%; background-color: #f9f9f9; color: #666; border: none; height: 45px; margin: 20px auto 0; font-size: 18px;}
+
+/*----------------------------eventContent----------------------------------*/
+#event2-main-text{border-bottom: 1px solid; padding: 10px;}
+
 /*-----------------------------login.jsp------------------------------------*/
-#login-main{width: 100%;  background-color: #f9f6ec;}
-#login-wrapper{width: 100%;}
-#login-form{margin-top: 50px; margin-bottom: 50px;}
-
-
+#login-main{width: 100%;}
+#login-wrap{width: 900px; margin: 0 auto; padding-bottom: 50px; border-bottom: 1px solid black;}
+#login-txt{margin-top: 100px; margin-bottom:30px; border-bottom: 1px solid;}
+#login-btn{width: 245px; height:35px; border: 2px solid #b5b5b5; background-color: red; font-weight: bold; line-height: 30px; color: white;}
+.login-input{display: block; width: 241px; height: 30px; border: 2px solid #b5b5b5;}
+#login-save{ position: absolute;}
+#log-save-txt{font-size: 12px;}
+#login-option{font-size: 12px; width: 241px; text-align: right;}
+#login-option a{ color: black;}
+#login-info{width:900px; height: 60px; margin:0 auto; line-height: 60px;}
+#log-info-st{color: red;}
+#login-info .login-round{width:150px; text-align:center; border: 1px solid red; text-decoration: none; padding:0 10px;}

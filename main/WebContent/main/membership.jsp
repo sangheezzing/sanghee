@@ -17,31 +17,6 @@
 </head>
 <body>
 <!-- header -->
-<div id="header">
-		<div id="header_inner">
-			<div id="logo">
-				<a href="http://localhost:8080/main/main/test.jsp">
-					<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
-				</a>
-			</div>
-			<div id="nav">
-				<ul>
-					<li><a href="#">예매</a></li>
-					<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
-					<li><a href="#">영화관</a></li>
-					<li><a href="#">이벤트</a></li>
-					<li><a href="#">공지사항</a></li>
-					<li><a href="#">고객센터</a></li>
-				</ul>
-			</div>
-			<div id="login">
-				<ul>
-					<li><a href="javascript:popupOpen();">로그인</a></li>
-					<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
 <!-- 회원가입 -->
 <article class="container">
         <div class="page-header">
