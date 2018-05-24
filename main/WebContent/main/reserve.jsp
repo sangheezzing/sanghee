@@ -30,7 +30,7 @@
 <!-- login -->
 			<div id="login">
 				<ul>
-					<li><a href="javascript:popupOpen();">로그인</a></li>
+					<li><a href="http://localhost:8080/main/main/login.jsp">로그인</a></li>
 					<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
 				</ul>
 			</div>

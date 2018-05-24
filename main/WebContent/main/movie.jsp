@@ -29,7 +29,7 @@
 		</div>
 		<div id="login">
 			<ul>
-				<li><a href="javascript:popupOpen();">로그인</a></li>
+				<li><a href="http://localhost:8080/main/main/login.jsp">로그인</a></li>
 				<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
 			</ul>
 		</div>
@@ -47,8 +47,8 @@
 					</a>
 					<div id="test">
 						<span class="poster-img-text">데드풀2</span>
-						<span class="poster-img-info">상세보기</span>
-						<span class="poster-img-info">예매하기</span>
+						<span class="poster-img-info"><a href="http://localhost:8080/main/main/movieInfo.jsp">상세보기</a></span>
+						<span class="poster-img-info"><a href="#">예매하기</a></span>
 					
 					</div>
 				</li>
@@ -58,9 +58,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -70,9 +70,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">버닝</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -83,9 +83,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">독전</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -96,9 +96,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">이건 뭔 영화냐</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -109,9 +109,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">안녕.나의소녀</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -122,9 +122,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">레슬러</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 						
 					</div>
 				</li>
@@ -135,9 +135,9 @@
 					</a>
 					<div id="test">
 						
-							<span class="poster-img-text">데드풀2</span>
-							<span class="poster-img-info">상세보기</span>
-							<span class="poster-img-info">예매하기</span>
+							<span class="poster-img-text">피터래빗</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
 							
 					</div>
 					
