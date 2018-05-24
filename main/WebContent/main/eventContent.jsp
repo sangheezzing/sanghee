@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>이벤트 내용</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -36,12 +36,18 @@
 <!-- main -->
 <div id="main">
 	<div id="main_inner">
-		<div id="event2-main-text">
+		<div id="eventContent-main-text">
 			<h1>이벤트 제목</h1>
-			<p>'참여하기' 버튼을 누르면 포인트가 적립됩니다.</p>
+			<p>이벤트 기간 : 2018.05.24~2500.12.31</p>
 		</div>
-		<div id="event2-content">
-			
+		<div id="eventContent-content">
+			<center>
+				<p>
+					<img src="http://image2.megabox.co.kr/mop/event/20180515_rabbit/rabbit.jpg">
+				</p>
+				<button onclick="alert('포인트 받아랏 얍!')">참여하기</button>
+				<button onclick="alert('나도 목록 띄우고 싶다..')">목록으로</button>
+			</center>
 		</div>
 	</div>
 </div>

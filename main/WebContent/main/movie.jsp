@@ -45,54 +45,102 @@
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						<span class="poster-img-text">데드풀2</span>
+						<span class="poster-img-info">상세보기</span>
+						<span class="poster-img-info">예매하기</span>
+					
+					</div>
 				</li>
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/BB/B014FD-8DE1-4164-BC3B-5987948D957C.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 				
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 				
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/9B/9D74F8-6166-4838-8D85-B5D0D34C2A12.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 				
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/BC/2AE335-0D32-4088-92E5-C6E1312576C7.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 				
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+						
+					</div>
 				</li>
 
 				<li class="poster-item">
 					<a href="#">
 						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg">
 					</a>
-					<span class="poster-img-text">데드풀</span>
+					<div id="test">
+						
+							<span class="poster-img-text">데드풀2</span>
+							<span class="poster-img-info">상세보기</span>
+							<span class="poster-img-info">예매하기</span>
+							
+					</div>
+					
 				</li>
 		
 			</ul>

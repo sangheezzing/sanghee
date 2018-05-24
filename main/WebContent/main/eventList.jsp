@@ -34,7 +34,7 @@ btn.onclick = function() {
 			<div id="event-list">
 			 	<ul id="event-wrapper" class="ul-wrapper">
 			 		<li class="event-item">
-			 			<a href="javascript:popup.jsp" onclick="btn">
+			 			<a href="http://localhost:8080/main/main/eventContent.jsp" onclick="">
 			 				<img class="event-img" src="http://image2.megabox.co.kr/mop/event/2018/81/D95684-AD56-4097-A25A-038D1FA9DF35.jpg">
 			 				<span class="title">피터래빗 콤보</span>
 			 				<span>2018.05.23~1018.12.31</span>
