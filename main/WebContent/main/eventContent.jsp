@@ -23,7 +23,7 @@
 				<li><a href="#">영화관</a></li>
 				<li><a href="http://localhost:8080/main/main/eventList.jsp">이벤트</a></li>
 				<li><a href="#">공지사항</a></li>
-				<li><a href="#">고객센터</a></li>
+				<li><a href="http://localhost:8080/main/main/customerService.jsp">고객센터</a></li>
 			</ul>
 		</div>
 		<div id="login">

@@ -1,5 +1,7 @@
 /*공통 css*/
 *{margin: 0;}
+th{padding: 15px 0 15px 13px;}
+td{padding: 15px 5px;}
 .title{font-weight: 700;}
 /*header*/
 #header{width: 100%; background-color: black;}
@@ -161,9 +163,61 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #eventContent-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 50px;}
 #eventContent-content center p {margin-bottom: 30px;}
 #eventContent-content center button{width: 100px; height: 40px; margin: 0 10px 0 10px;}
+
+
+
 /*-----------------------------myPage.jsp---------------------------------------*/
 #myPage-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 20px;}
 #myPage-content{text-align: -webkit-center;}
+
+/* 탭 스타일 지정 */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* 탭 내 단추 스타일 지정 */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* 가리키기 단추의 배경 색 변경 */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* 활성 작성/현재 테이블 클래스 */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* 탭 내용 스타일 지정 */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* 닫기 단추 스타일 지정 */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+
+
 /*-----------------------------login.jsp------------------------------------*/
 #login-main{width: 100%;}
 #login-wrap{width: 900px; margin: 0 auto; padding-bottom: 50px; border-bottom: 1px solid black;}
@@ -177,3 +231,19 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #login-info{width:900px; height: 60px; margin:0 auto; line-height: 60px;}
 #log-info-st{color: red;}
 #login-info .login-round{width:150px; text-align:center; border: 1px solid red; text-decoration: none; padding:0 10px;}
+
+
+
+
+/*-----------------------------notice.jsp-------------------------------*/
+#notice-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 20px;}
+
+
+
+/*-------------------------------customerService.jsp---------------------------*/
+#customerService-wrap {padding: 115px; text-align: center; height: 50px; line-height: 50px;}
+#customerService-bottom-wrap{margin-top: 10px; width: 900px; margin: 0 auto;}
+#customerService-table{background-color: #fdfcf0;}
+.tb1_info_txt{background-color: #edebe1; border-top: 1px solid #b8b6aa; text-align: right;}
+.box-btn.qna_email{margin-top: 30px; text-align: right;}
+.round{text-align: right;}
