@@ -200,7 +200,7 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 }
 
 /* 탭 내용 스타일 지정 */
-.tabcontent {
+ .tabcontent {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;

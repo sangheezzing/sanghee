@@ -6,8 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>영화 정보</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script type="text/javascript" src="./js/star.js"></script>
-<script type="text/javascript" src="./js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
 <div id="main">
@@ -42,12 +41,30 @@
 						<p><strong>줄거리</strong></p>
 						<textarea id="test222"></textarea>
 					</div>
-					<div id="movieInfo-video">
+					<!-- 스틸컷/동영상 탭기능 -->
+					<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'Paris')">스틸컷</button>
+						<button class="tablinks" onclick="openCity(event, 'movieInfo-video')">동영상</button>
+					</div>
+					
+
+					<div id="Paris" class="tabcontent">
+						<h3>London</h3>
+						<p>London is the capital city of England.</p>
+						<p>London is the capital city of England.</p>
+						<p>London is the capital city of England.</p>
+						<p>London is the capital city of England.</p>
+						<p>London is the capital city of England.</p>
+					</div>
+					
+					<div id="movieInfo-video" class="tabcontent">
 						<video controls>
 							<source src="./video/deadpool2.mp4" type="video/mp4"></source>
 						</video>
-					</div>
+					</div>	
 				</div>
+				
+				
 				<!-- 별점 -->
 			<div id="movieInfo-bottom">
 			<h2>한줄평</h2>

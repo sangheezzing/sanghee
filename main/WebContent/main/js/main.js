@@ -1,3 +1,4 @@
+//Index.jsp
 //메인 화면의 박스오피스,현재상영작,상영 예정작
 function chane(a){
 	var content1 = document.getElementById("content_box1");
@@ -22,13 +23,12 @@ if(a==3){
 	content1.style.display = 'none';
 }
 }
-//내가 연습한 팝업
-function popupOpen(){
-	var popUrl = "popup.jsp";
-	var popOption = "width=370,height=360,resizable=no,status=no;";
-		window.open(popUrl,"",popOption);
-}
 
+/*
+ *
+ * movieInfo.jsp
+ * 스틸컷/동영상 탭 기능
+ */
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
