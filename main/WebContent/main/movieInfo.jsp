@@ -38,30 +38,63 @@
 				<!--  -->
 				<div id="movieInfo-middle">
 					<div id="movieInfo-story">
-						<p><strong>줄거리</strong></p>
+						<p>
+							<strong>줄거리</strong>
+						</p>
 						<textarea id="test222"></textarea>
 					</div>
 					<!-- 스틸컷/동영상 탭기능 -->
 					<div class="tab">
 						<button class="tablinks" onclick="openCity(event, 'Paris')">스틸컷</button>
-						<button class="tablinks" onclick="openCity(event, 'movieInfo-video')">동영상</button>
+						<button class="tablinks"
+							onclick="openCity(event, 'movieInfo-video')">동영상</button>
 					</div>
-					
 
+					<!-- 스틸컷 이미지 -->
 					<div id="Paris" class="tabcontent">
 						<h3>London</h3>
 						<p>London is the capital city of England.</p>
-						<img alt="" src="http://image2.megabox.co.kr/mop/still/2018/07/158DFC-0423-4DF0-B741-B1E3010BD05E.large.jpg">
+						<!-- 슬라이드 -->
+						<div class="slideshow-container">
+
+							<div class="mySlides fade">
+								<div class="numbertext">1 / 3</div>
+								<img
+									src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+									style="width: 100%; height: 400px;">
+								<div class="text">Caption Text</div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext">2 / 3</div>
+								<img
+									src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
+									style="width: 100%; height: 400px;">
+								<div class="text">Caption Two</div>
+							</div>
+
+							<div class="mySlides fade">
+								<div class="numbertext">3 / 3</div>
+								<img
+									src="http://image2.megabox.co.kr/mop/still/2018/9F/851A7C-A7D8-4ECB-BB22-977853853519.large.jpg"
+									style="width: 100%; height: 400px;">
+								<div class="text">Caption Three</div>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						</div>
+
 					</div>
-					
+					<!-- 동영상 -->
 					<div id="movieInfo-video" class="tabcontent">
-						<video controls>
-							<source src="./video/deadpool2.mp4" type="video/mp4"></source>
-						</video>
-					</div>	
+						<video controls> <source src="./video/deadpool2.mp4"
+							type="video/mp4"></source> </video>
+					</div>
 				</div>
-				
-				
+
+
 				<!-- 별점 -->
 			<div id="movieInfo-bottom">
 			<h2>한줄평</h2>

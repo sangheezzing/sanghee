@@ -37,6 +37,28 @@ td{padding: 15px 5px;}
 #footer_info li a:hover {text-decoration: underline;}
 #text1{color: white; font-size: 12px;}
 #text2{color: white; font-size: 12px; position: absolute; right: 0;bottom: 40px;}
+
+
+/* 탭 스타일 지정 */
+.tab {overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
+
+/* 탭 내 단추 스타일 지정 */
+.tab button {background-color: inherit; float: left; border: none; outline: none; cursor: pointer;
+			 padding: 14px 16px; transition: 0.3s; font-size: 17px;}
+
+/* 가리키기 단추의 배경 색 변경 */
+.tab button:hover {background-color: #ddd;}
+
+/* 활성 작성/현재 테이블 클래스 */
+.tab button.active { background-color: #ccc;}
+
+/* 탭 내용 스타일 지정 */
+ .tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none;}
+
+/* 닫기 단추 스타일 지정 */
+.topright {float: right; cursor: pointer; font-size: 28px;}
+
+.topright:hover {color: red;}
 /*공통 css 끝*/
 
 
@@ -134,6 +156,9 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #movieInfo-review-content{width: 539px; display: inline-block; border-right: 1px solid #c0c0c0; padding: 25px;}
 #movieInfo-review-id{display: inline-block; width: 50px; height: 22px;}
 
+/*스틸컷 슬라이드*/
+
+
 
 /*---------------------------reserve.jsp------------------------------- */
 #reserve-main-inner{width: 1040px; margin: auto;}
@@ -171,51 +196,7 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #myPage-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 20px;}
 #myPage-content{text-align: -webkit-center;}
 
-/* 탭 스타일 지정 */
-.tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-}
 
-/* 탭 내 단추 스타일 지정 */
-.tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-}
-
-/* 가리키기 단추의 배경 색 변경 */
-.tab button:hover {
-    background-color: #ddd;
-}
-
-/* 활성 작성/현재 테이블 클래스 */
-.tab button.active {
-    background-color: #ccc;
-}
-
-/* 탭 내용 스타일 지정 */
- .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-
-/* 닫기 단추 스타일 지정 */
-.topright {
-    float: right;
-    cursor: pointer;
-    font-size: 28px;
-}
-
-.topright:hover {color: red;}
 
 
 
