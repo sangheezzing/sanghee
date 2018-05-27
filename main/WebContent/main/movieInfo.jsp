@@ -51,10 +51,7 @@
 					<div id="Paris" class="tabcontent">
 						<h3>London</h3>
 						<p>London is the capital city of England.</p>
-						<p>London is the capital city of England.</p>
-						<p>London is the capital city of England.</p>
-						<p>London is the capital city of England.</p>
-						<p>London is the capital city of England.</p>
+						<img alt="" src="http://image2.megabox.co.kr/mop/still/2018/07/158DFC-0423-4DF0-B741-B1E3010BD05E.large.jpg">
 					</div>
 					
 					<div id="movieInfo-video" class="tabcontent">

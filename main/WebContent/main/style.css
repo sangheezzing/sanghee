@@ -3,6 +3,7 @@
 th{padding: 15px 0 15px 13px;}
 td{padding: 15px 5px;}
 .title{font-weight: 700;}
+
 /*header*/
 #header{width: 100%; background-color: black;}
 #header_inner{width: 1200px; position: relative; margin: 0 auto; padding: 20px;}

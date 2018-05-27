@@ -60,86 +60,72 @@ function popupOpen(){
 <div id="content_inner">
 	<div id="content_box1">
 		<ul class="boxoffice_poster">
-			<li>
-				<div class="boxoffice_poster_div">
-					<div>
-						<img src="http://ticketimage.interpark.com/rz/image/play/goods/poster/18/18004552_p_s.jpg"
-						 width="232px" height="336px">
+			<li class="poster-item">
+					<a href="#">
+						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
+					</a>
+					<div id="test">
+						
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
+						
 					</div>
-					<div class="main_moviename">
-						<p>어벤져스</p>
+				</li>
+			<li class="poster-item">
+					<a href="#">
+						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
+					</a>
+					<div id="test">
+						
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
+						
 					</div>
-					<div>
-						<input type="button" value="예매하기">&nbsp;
-						<input type="button" value="상세보기">
+				</li>
+			<li class="poster-item">
+					<a href="#">
+						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
+					</a>
+					<div id="test">
+						
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
+						
 					</div>
-				</div>
-			</li>
-			<li>
-				<div class="boxoffice_poster_div">
-					<div>
-						<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
-							width="232px" height="336px">
+				</li>
+			<li class="poster-item">
+					<a href="#">
+						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
+					</a>
+					<div id="test">
+						
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
+						
 					</div>
-					<div class="main_moviename">
-						<p>어벤져스</p>
-					</div>
-					<div>
-						<input type="button" value="예매하기">&nbsp;
-						<input type="button" value="상세보기">
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="boxoffice_poster_div">
-					<div>
-						<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
-							width="232px" height="336px">
-					</div>
-					<div class="main_moviename">
-						<p>어벤져스</p>
-					</div>
-					<div>
-						<input type="button" value="예매하기">&nbsp;
-						<input type="button" value="상세보기">
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="boxoffice_poster_div">
-					<div>
-						<img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg" width="232px" height="336px">
-					</div>
-					<div class="main_moviename">
-						<p>어벤져스</p>
-					</div>
-					<div>
-						<input type="button" value="예매하기">&nbsp;
-						<input type="button" value="상세보기">
-					</div>
-				</div>
-			</li>
+				</li>
 			
 			</ul>
 	</div>
 	<!-- 현재상영작 -->
 	<div id="content_box3">
 		<ul class="boxoffice_poster">
-			<li>
-				<div class="boxoffice_poster_div">
-					<div>
-						<img src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg"
-							width="232px" height="336px">
+			<li class="poster-item">
+					<a href="#">
+						<img class="poster-item-img" src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg">
+					</a>
+					<div id="test">
+						
+							<span class="poster-img-text">어벤져스:인피니티워</span>
+							<span class="poster-img-info"><a href="#">상세보기</a></span>
+							<span class="poster-img-info"><a href="#">예매하기</a></span>
+						
 					</div>
-					<div class="main_moviename">
-						<p>어벤져스</p>
-					</div>
-					<div>
-						<input type="button" value="예매하기">&nbsp;
-						<input type="button" value="상세보기">
-					</div>
-				</div>
-			</li>
+				</li>
 			<li>
 				<div class="boxoffice_poster_div">
 					<div>
