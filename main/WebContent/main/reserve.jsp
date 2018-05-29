@@ -6,6 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>예매페이지</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
 <!-- header -->
@@ -66,8 +67,70 @@
 	<!-- 영화관 선택 -->
 		<h2>영화관 선택</h2>
 		<div id="reserve-choice-cinema">
+				<p>지역을 고르세요.</p>
+
+				<div class="tab">
+					<button class="tablinks" onclick="openCity(event, 'Seoul')">서울</button>
+					<button class="tablinks" onclick="openCity(event, 'Gyeonggi')">경기</button>
+					<button class="tablinks" onclick="openCity(event, 'Busan')">부산</button>
+				</div>
+
+				<div id="Seoul" class="tabcontent">
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg" width="300px" height="200px">
+						<p>왕십리</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG" width="300px" height="200px">
+						<p>압구정</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg" width="300px" height="200px">
+						<p>영등포</p>
+					</div>
+					
+		
+				</div>
+				
+				<div id="Gyeonggi" class="tabcontent">
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg" width="300px" height="200px">
+						<p>용인</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG" width="300px" height="200px">
+						<p>수원</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg" width="300px" height="200px">
+						<p>안양</p>
+					</div>
+				</div>
+
+				<div id="Busan" class="tabcontent">
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg" width="300px" height="200px">
+						<p>해운대</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG" width="300px" height="200px">
+						<p>서면</p>
+					</div>
+					
+					<div class="area">
+						<img alt="" src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg" width="300px" height="200px">
+						<p>음...</p>
+					</div>
+				</div>
 			
-		</div>
+			</div>
+			<!--  -->
+			<h2>상영 날짜</h2>
 	</div>
 </div>
 <!-- footer -->
