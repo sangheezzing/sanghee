@@ -48,19 +48,20 @@
 			</div>
 		</div>
 	<!-- 영화 선택 -->
+	<h2>영화선택</h2>
 		<div id="reserve-choice">
-			<h2>영화선택</h2>
-			<div id="reserve-choice-poster">
-				<ul class="">
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-					<li><img src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"></li>
-				</ul>
-			</div>
+			<ul style="list-style: none; padding: 0;">
+			
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>
+				<li class="reserve-choice-poster"><img alt="" src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg" width="232px" height="336px"></li>				
+				
+			</ul>
 		</div>
 	<!-- 영화관 선택 -->
 		<h2>영화관 선택</h2>
