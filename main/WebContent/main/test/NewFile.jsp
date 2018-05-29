@@ -4,220 +4,193 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
-
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column"> 
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/BC/2AE335-0D32-4088-92E5-C6E1312576C7.large.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/9B/9D74F8-6166-4838-8D85-B5D0D34C2A12.large.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/A2/4F309C-3FFE-462B-BF10-E2114BFB89C1.large.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div> 
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/BB/B014FD-8DE1-4164-BC3B-5987948D957C.large.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
-</div>
-
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>
+<title>예매페이지</title>
+<link rel="stylesheet" type="text/css" href="st.css">
+<script type="text/javascript" src="./js/main.js"></script>
+</head>
 <body>
+<!-- header -->
+<div id="header">
+		<div id="header_inner">
+			<div id="logo">
+				<a href="http://localhost:8080/main/main/Index.jsp">
+					<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
+				</a>
+			</div>
+<!-- menu bar -->
+			<div id="nav">
+				<ul>
+					<li><a href="#">예매</a></li>
+					<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
+					<li><a href="#">영화관</a></li>
+					<li><a href="http://localhost:8080/main/main/eventList.jsp">이벤트</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">고객센터</a></li>
+				</ul>
+			</div>
+<!-- login -->
+			<div id="login">
+				<ul>
+					<li><a href="http://localhost:8080/main/main/login.jsp">로그인</a></li>
+					<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- main -->
+	<div id="main">
+		<div id="main_inner">
+			<!-- 윗머리글 -->
+			<div id="reserve-top-text">
+				<h1>영화예매</h1>
+				<div id="reserve-top-p">
+					<p id="p1" class="reserve-p">영화예매를 순서대로 진행해 주세요.</p>
+					<p id="p2" class="reserve-p">영화>좌석>결제 3단계로 이루어져 있습니다.</p>
+				</div>
+			</div>
+			<!-- 영화 선택 -->
+			<h2>영화선택</h2>
+			<div id="reserve-choice">
+				<ul style="list-style: none; padding: 0;">
 
-<h2 style="text-align:center">Slideshow Gallery</h2>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
+					<li class="reserve-choice-poster"><img alt=""
+						src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+						width="232px" height="336px"></li>
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg" style="width:100%">
-  </div>
+				</ul>
+			</div>
+			<!-- 영화관 선택 -->
+			<h2>영화관 선택</h2>
+			<div id="reserve-choice-cinema">
+				<p>지역을 고르세요.</p>
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg" style="width:100%">
-  </div>
+				<div class="tab">
+					<button class="tablinks" onclick="openCity(event, 'Seoul')">서울</button>
+					<button class="tablinks" onclick="openCity(event, 'Gyeonggi')">경기</button>
+					<button class="tablinks" onclick="openCity(event, 'Busan')">부산</button>
+				</div>
 
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="img_mountains_wide.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="img_lights_wide.jpg" style="width:100%">
-  </div>
+				<div id="Seoul" class="tabcontent">
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg"
+							width="300px" height="200px">
+						<p>왕십리</p>
+					</div>
 
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="img_nature_wide.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="img_snow_wide.jpg" style="width:100%">
-  </div>
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG"
+							width="300px" height="200px">
+						<p>압구정</p>
+					</div>
 
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg"
+							width="300px" height="200px">
+						<p>영등포</p>
+					</div>
 
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_mountains.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_lights.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="img_nature.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
-    </div>    
-    <div class="column">
-      <img class="demo cursor" src="img_snow.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
-    </div>
-  </div>
+
+				</div>
+
+				<div id="Gyeonggi" class="tabcontent">
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg"
+							width="300px" height="200px">
+						<p>용인</p>
+					</div>
+
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG"
+							width="300px" height="200px">
+						<p>수원</p>
+					</div>
+
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg"
+							width="300px" height="200px">
+						<p>안양</p>
+					</div>
+				</div>
+
+				<div id="Busan" class="tabcontent">
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2015/0420/wang.jpg"
+							width="300px" height="200px">
+						<p>해운대</p>
+					</div>
+
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2017/0308/14889569732790.JPG"
+							width="300px" height="200px">
+						<p>서면</p>
+					</div>
+
+					<div class="area">
+						<img alt=""
+							src="http://img.cgv.co.kr/Theater/Theater/2014/1211/cgvyoungdeungpo.jpg"
+							width="300px" height="200px">
+						<p>음...</p>
+					</div>
+				</div>
+
+			</div>
+			<!-- 날짜 선택 -->
+			<h2>상영 날짜</h2>
+		</div>
+	</div>
+			
+				<!-- footer -->
+<div id="footer">
+	<div id="footer_inner">
+		<div id="footer_logo">
+			<a href="#"><img alt="" src="http://image2.megabox.co.kr/mop/home/logo_footer_new.png"></a>
+		</div>
+		<ul id="footer_info">
+			<li><a href="#">회사소개</a></li>
+			<li><a href="#">채용정보</a></li>
+			<li><a href="#">제휴/광고/부대사업 문의</a></li>
+			<li><a href="#">이용약관</a></li>
+			<li><a href="#">개인정보 처리방침</a></li>
+			<li><a href="#">고객센터</a></li>
+		</ul>
+		<div id="text1">
+		서울특별시 강남구 도산대로 156, 2층 메가박스(주) (논현동, 중앙엠앤비사옥)<br>
+		대표자명 김진선 | 개인정보보호 책임자 경영지원실 실장 박영진<br>
+		사업자등록번호 211-86-59478 | 통신판매업신고번호 제 833호
+		</div>
+		<div id="text2">
+		Copyright 2014 by MEGABOX. All rights reserved
+		</div>
+	</div>	
 </div>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
-</script>
 </body>
 </html>
