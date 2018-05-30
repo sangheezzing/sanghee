@@ -45,6 +45,8 @@
 				<p>
 					<img src="http://image2.megabox.co.kr/mop/event/20180515_rabbit/rabbit.jpg">
 				</p>
+				
+				
 				<button onclick="alert('포인트 받아랏 얍!')">참여하기</button>
 				<button onclick="alert('나도 목록 띄우고 싶다..')">목록으로</button>
 			</center>
@@ -55,7 +57,7 @@
 <div id="footer">
 	<div id="footer_inner">
 		<div id="footer_logo">
-			<a href="#"><img src="http://image2.megabox.co.kr/mop/home/logo_footer_new.png"></a>
+			<a href="#"><img src="http://image2.megabox.co.kr/mop/home/logo_footer_new.png" alt="요롤룰루~~~"></a>
 		</div>
 		<ul id="footer_info">
 			<li><a href="#">회사소개</a></li>

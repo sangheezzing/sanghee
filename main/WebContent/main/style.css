@@ -282,7 +282,20 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #payment-main-container-inner{padding: 10px 0; margin: 0 auto; width: 1100px;}
 #point{padding-left: 30px;}
 #point p{margin-bottom: 20px;}
-#point-txt{width: 150px;}
+#point form{padding-left: 60px; margin-bottom: 50px;}
+div#point form label:nth-child(3){padding-left: 100px;}
+#point-txt{width: 200px;}
+#totalpay{padding-left: 30px;}
+#totalpay h2{margin-bottom: 20px;}
+#totalpay-center {margin-bottom: 50px;}
+#totalpay-center label:nth-child(1){margin:0 60px;}
+#totalpay-center label:nth-child(2){margin:0 60px;}
+#totalpay-center label:nth-child(3){margin:0 60px;}
+.font-weight{padding: 0 15px;}
+#finish{text-align: center;}
+#finish button{padding: 14px 16px; border: none;}
+#finish button:nth-child(1){background-color: #F7D358;}
+#finish button:nth-child(2){background-color: #e0e0e0;}
 /*---------------------------eventList.jsp------------------------------  */
 
 #event-container{margin-top: 30px; margin-bottom: 80px; overflow: hidden;}
@@ -300,8 +313,9 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 /*----------------------------eventContent.jsp----------------------------------*/
 #eventContent-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 50px;}
 #eventContent-content center p {margin-bottom: 30px;}
-#eventContent-content center button{width: 100px; height: 40px; margin: 0 10px 0 10px;}
-
+#eventContent-content center button{width: 100px; height: 40px; margin: 0 10px 0 10px; border: none;}
+#eventContent-content center button:nth-child(2){background-color: #F7D358;}
+#eventContent-content center button:nth-child(3){background-color: #e0e0e0;}
 
 
 /*-----------------------------myPage.jsp---------------------------------------*/

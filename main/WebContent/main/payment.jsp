@@ -58,6 +58,18 @@
 					<input type="submit" name="point" value="적용">
 				</form>
 			</div>
+			<div id="totalpay">
+				<h2>총 결제 금액</h2>
+				<div id="totalpay-center">
+					<label class="totalpay-lb">티켓수량<strong class="font-weight">2</strong>장</label>
+					<label class="totalpay-lb">사용한 포인트<strong class="font-weight">2000</strong>POINT</label>
+					<label class="totalpay-lb">결제할 금액 <strong class="font-weight">1,000,000</strong>원</label>
+				</div>		
+			</div>
+			<div id="finish">
+				<button>결제 완료</button>
+				<button>취소</button>
+			</div>
 			
 		</div>
 	</div>
