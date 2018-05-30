@@ -11,7 +11,7 @@
 <div id="header">
 	<div id="header_inner">
 		<div id="logo">
-			<a href="http://localhost:8080/main/main/test.jsp">
+			<a href="http://localhost:8080/main/main/Index.jsp">
 				<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
 			</a>
 		</div>

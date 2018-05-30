@@ -24,7 +24,7 @@ btn.onclick = function() {
 <!-- main -->
 <div id="main">
 	<div id="main_inner">
-		<div id="event-main-text">
+		<div class="main-text">
 			<h1>이벤트</h1>
 			<p>'참여하기' 버튼을 누르면 포인트가 적립됩니다.</p>
 		</div>
@@ -105,20 +105,6 @@ btn.onclick = function() {
 		</div>
 	</div>
 </div>	
-
-
-<!-- 모달 -->
-<div id="myModal" class="modal">
-
-  <!-- 모달 콘텐츠 -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>Some text in the Modal..</p>
-  </div>
-
-</div>
-<button id="myBtn">Open Modal</button>
-
 
 <!-- footer -->
 <div id="footer">

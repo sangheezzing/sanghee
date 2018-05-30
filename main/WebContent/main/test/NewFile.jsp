@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>예매페이지</title>
 <link rel="stylesheet" type="text/css" href="st.css">
-<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="WebContent/main/js/main.js"></script>
 </head>
 <body>
 <!-- header -->
@@ -42,14 +42,14 @@
 		<div id="main_inner">
 			<!-- 윗머리글 -->
 			<div id="reserve-top-text">
-				<h1>영화예매</h1>
+				<h1 class="reserve-text">영화예매</h1>
 				<div id="reserve-top-p">
 					<p id="p1" class="reserve-p">영화예매를 순서대로 진행해 주세요.</p>
 					<p id="p2" class="reserve-p">영화>좌석>결제 3단계로 이루어져 있습니다.</p>
 				</div>
 			</div>
 			<!-- 영화 선택 -->
-			<h2>영화선택</h2>
+			<h2 class="reserve-text">영화선택</h2>
 			<div id="reserve-choice">
 				<ul style="list-style: none; padding: 0;">
 
@@ -81,7 +81,7 @@
 				</ul>
 			</div>
 			<!-- 영화관 선택 -->
-			<h2>영화관 선택</h2>
+			<h2 class="reserve-text">영화관 선택</h2>
 			<div id="reserve-choice-cinema">
 				<p>지역을 고르세요.</p>
 
@@ -164,7 +164,19 @@
 
 			</div>
 			<!-- 날짜 선택 -->
-			<h2>상영 날짜</h2>
+			<h2 class="reserve-text">상영 날짜</h2>
+			<div>
+				date<input type="date">
+			</div>
+			<div id="date">
+				<button>10:00</button>
+				<button>12:00</button>
+				<button>14:00</button>
+			</div>
+			
+			<div id="next">
+				<button>다음</button>
+			</div>
 		</div>
 	</div>
 			

@@ -264,14 +264,17 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #reserve-top-text{position: relative; border-bottom: 1px solid; padding-bottom: 15px;}
 #p2{right: 0; position: absolute;}
 .reserve-p{display: inline; font-weight: lighter; font-size: 13px;}
-#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 400px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
+#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 800px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
 #reserve-choice-poster{width: 100%; height: 380px; overflow: -webkit-paged-x;}
 #reserve-choice-poster ul{padding: 0; list-style: none; overflow: hidden;}
 .reserve-choice-poster{float: left; margin: 10px;}
 .area{width: 300px; height: 230px; border: 1px solid #e0e0e0; font-weight: 700; text-align: center; display: table-cell;}
-
-
-
+.reserve-text{margin-top: 50px;}
+#date{background-color: #f1f1f1; border: 1px solid #ccc; margin: 50px 0;}
+#date button{padding: 14px 16px; list-style: none; border: none; outline: none;}
+#date button:hover{background-color: #ddd;}
+#next{text-align: right;}
+#next button{padding: 14px 40px; border: none;}
 
 /*---------------------------eventList.jsp------------------------------  */
 #event-main-text{border-bottom: 1px solid; padding: 10px;}
