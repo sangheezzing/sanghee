@@ -38,8 +38,8 @@
 </div>
 <!-- end header -->
 <!-- main -->
-<div id="main">
-	<div id="main_inner">
+<div class="main">
+	<div class="main_inner">
 		<div class="main-text">
 			<h1>영화 예매</h1>
 			<p>영화 예매를 순서대로 진행해 주세요.</p>

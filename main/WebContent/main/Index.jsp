@@ -44,7 +44,7 @@ function popupOpen(){
 	</div>
 </div>
 	<!-- 메인 동영상 -->
-<div id="main">
+<div class="main">
 	<iframe width="100%" height="720"
 		src="https://www.youtube.com/embed/z2tPt7293B4" frameborder="0"
 		allow="autoplay; encrypted-media" allowfullscreen></iframe>

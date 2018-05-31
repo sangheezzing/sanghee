@@ -37,7 +37,7 @@
 </div>
 <!-- end header -->
 <!-- main -->
-<div id="main">
+<div class="main">
 	<div id="reserve-main-inner">
 		<div id="reserve-content">
 			<ul id="poster-wrapper">

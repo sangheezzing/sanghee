@@ -8,8 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-<div id="main">
-	<div id="main_inner">
+<div class="main">
+	<div class="main_inner">
 		<div id="notice-main-text">
 			<h1>마이 페이지</h1>
 		</div>

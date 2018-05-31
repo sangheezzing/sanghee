@@ -1,7 +1,8 @@
 /* 공통 css*/
 *{margin: 0;}
-th{padding: 15px 0 15px 13px;}
+th{padding: 15px 5px; background-color: #848484;}
 td{padding: 15px 5px;}
+tr{text-align: center;}
 .title{font-weight: 700;}
 .main-text{border-bottom: 1px solid; padding: 10px;}
 /*header*/
@@ -24,8 +25,8 @@ td{padding: 15px 5px;}
 #nav ul li a:hover {text-decoration: underline;}
 
 /*main*/
-#main{width: 100%; min-width: 1240px;}
-#main_inner{width: 1100px; margin:auto;}
+.main{width: 100%; min-width: 1240px;}
+.main_inner{width: 1100px; margin:auto;}
 
 /*footer*/
 #footer{width: 100%; background-color: black; clear: both; margin-top: 100px; min-width: 1240px;}
@@ -54,14 +55,13 @@ td{padding: 15px 5px;}
 .tab button.active { background-color: #ccc;}
 
 /* �꺆 �궡�슜�쓽 �뒪���씪 吏��젙 */
- .tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none;}
+ .tabcontent {display: none; border: 1px solid #ccc; border-top: none;}
 
 /* �뜝�뙠源띿삕 �뜝�룞�삕�뜝�룞�삕 �뜝�룞�삕���뜝�룞�삕 �뜝�룞�삕�뜝�룞�삕 */
 .topright {float: right; cursor: pointer; font-size: 28px;}
 
 .topright:hover {color: red;}
-
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
 /*�뒳�씪�씠�뱶*/
 .mySlides {display: none}
@@ -321,9 +321,10 @@ div#point form label:nth-child(3){padding-left: 100px;}
 /*-----------------------------myPage.jsp---------------------------------------*/
 #myPage-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 20px;}
 #myPage-content{text-align: -webkit-center;}
-
-
-
+.mypage-table{width: 100%;}
+.mypage-table thead tr:nth-child(even){background-color: #D8D8D8;}
+/*개인정보 수정*/
+.revice-inner{width: 550px; padding:40px 0; margin: 0 auto; background-color: aqua; text-align: center;}
 
 
 /*-----------------------------login.jsp------------------------------------*/
@@ -355,3 +356,8 @@ div#point form label:nth-child(3){padding-left: 100px;}
 .tb1_info_txt{background-color: #edebe1; border-top: 1px solid #b8b6aa; text-align: right;}
 .box-btn.qna_email{margin-top: 30px; text-align: right;}
 .round{text-align: right;}
+/*-------------------------------personalInformation----------------------------*/
+#person-info{float: right;}
+.person-main{padding-top: 50px;}
+.person-main label{margin-top: 3px;}
+.person-main table tbody{text-align: right;}

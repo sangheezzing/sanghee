@@ -42,9 +42,15 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+$(document).ready(function() {
+	   var tabcontent;
+	   tabcontent = document.getElementsByClassName("tabcontent");
+	   tabcontent[0].style.display = "block";
+	alert("dma...");
+});
 
 // Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+/*document.getElementById("defaultOpen").click();*/
 
 /*
  * 스틸컷 슬라이드 기능

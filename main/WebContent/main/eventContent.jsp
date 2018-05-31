@@ -34,8 +34,8 @@
 	</div>
 </div>
 <!-- main -->
-<div id="main">
-	<div id="main_inner">
+<div class="main">
+	<div class="main_inner">
 		<div id="eventContent-main-text">
 			<h1>이벤트 제목</h1>
 			<p>이벤트 기간 : 2018.05.24~2500.12.31</p>

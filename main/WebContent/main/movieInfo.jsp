@@ -6,11 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>영화 정보</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<script  src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="./js/main.js"></script>
 </head>
 <body>
-	<div id="main">
-		<div id="main_inner">
+	<div class="main">
+		<div class="main_inner">
 			<div id="movieInfo-main-text">
 				<h1>상세정보</h1>
 			</div>

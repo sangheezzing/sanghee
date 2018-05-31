@@ -22,8 +22,8 @@ btn.onclick = function() {
 <!-- header -->
 
 <!-- main -->
-<div id="main">
-	<div id="main_inner">
+<div class="main">
+	<div class="main_inner">
 		<div class="main-text">
 			<h1>이벤트</h1>
 			<p>'참여하기' 버튼을 누르면 포인트가 적립됩니다.</p>
