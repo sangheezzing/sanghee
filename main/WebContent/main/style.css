@@ -356,8 +356,20 @@ div#point form label:nth-child(3){padding-left: 100px;}
 .tb1_info_txt{background-color: #edebe1; border-top: 1px solid #b8b6aa; text-align: right;}
 .box-btn.qna_email{margin-top: 30px; text-align: right;}
 .round{text-align: right;}
-/*-------------------------------personalInformation----------------------------*/
+/*-------------------------------personalInformation.jsp----------------------------*/
 #person-info{float: right;}
+.must-img{margin-bottom: 10px;}
 .person-main{padding-top: 50px;}
+.person-main button{padding: 14px 30px; position: relative; left: 72%; margin-bottom: 50px;}
 .person-main label{margin-top: 3px;}
-.person-main table tbody{text-align: right;}
+.person-main table{width: 980px; margin:30px 0 20px; border-collapse: collapse;}
+.person-main table tbody tr{text-align: left; border-bottom: 1px solid;}
+.person-main table tbody tr:nth-child(1) {border-top: 1px solid;}
+.person-main table tbody th{background-color: #f8f8f8; width:250px; padding: 20px 16px;}
+.warning-msg{color: red; display:none;}
+
+/*회원 탈퇴*/
+div.getout{margin-bottom: 50px;}
+div.getout h1{padding:100px 0; text-align: center;}
+div.getout h2{border-top: 1px solid; padding-top: 20px;}
+div.getout button{padding: 14px 15px; position: relative; left: 81%;}
