@@ -373,3 +373,8 @@ div.getout{margin-bottom: 50px;}
 div.getout h1{padding:100px 0; text-align: center;}
 div.getout h2{border-top: 1px solid; padding-top: 20px;}
 div.getout button{padding: 14px 15px; position: relative; left: 81%;}
+/*----------------------------------------cinema.jsp-----------------------------------*/
+.cinema-img {padding-bottom: 50px;}
+.cinema-img img{width: 100%;}
+.cinema-area{padding-bottom: 50px;}
+.cinema-area{width: 1100px; margin: auto;}
