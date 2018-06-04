@@ -11,8 +11,8 @@
 </head>
 <body>
 	<!-- 메인 -->
-	<div id="main">
-		<div id="main_inner">
+	<div class="main">
+		<div class="main_inner">
 			<div id="myPage-main-text">
 				<h1>마이 페이지</h1>
 			</div>

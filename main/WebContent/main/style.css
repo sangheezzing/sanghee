@@ -11,18 +11,17 @@ tr{text-align: center;}
 #logo{position: absolute;}
 #logo img{width: 300px; height: 50px;}
 
+/*header_ui>.nav .login*/
+.header_ul{text-align: center;}
+.header_li{padding: 0;}
+.header_li li{display: inline; padding: 0 10px; line-height: 50px;}
+.header_li li a{color: white; text-decoration: none;}
+.header_li li a:hover{text-decoration: underline;}
 /*header-login*/
-#login ul{padding: 0; text-align: right; padding: 0;}
-#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
-#login ul li a{color: white; text-decoration: none;}
-#login ul li a:hover {text-decoration: underline;}
+.login{position:absolute; display:inline; text-align: right; width: 300px;}
 
 /*header-menu bar*/
-#nav{text-align: center;}
-#nav ul{list-style: none; padding: 0; position: absolute; left: 30%; }
-#nav ul li{display: inline; line-height: 50px; padding:0 10px 0 10px;}
-#nav ul li a{color: white; text-decoration: none; font-weight: bold;}
-#nav ul li a:hover {text-decoration: underline;}
+.nav{width:500px; margin: 0 auto; display: inline;}
 
 /*main*/
 .main{width: 100%; min-width: 1240px;}
@@ -55,7 +54,7 @@ tr{text-align: center;}
 .tab button.active { background-color: #ccc;}
 
 /* �꺆 �궡�슜�쓽 �뒪���씪 吏��젙 */
- .tabcontent {display: none; border: 1px solid #ccc; border-top: none;}
+ .tabcontent {display: none; border: 1px solid #ccc; border-top: none; overflow: auto;}
 
 /* �뜝�뙠源띿삕 �뜝�룞�삕�뜝�룞�삕 �뜝�룞�삕���뜝�룞�삕 �뜝�룞�삕�뜝�룞�삕 */
 .topright {float: right; cursor: pointer; font-size: 28px;}
@@ -264,15 +263,15 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #reserve-top-text{position: relative; border-bottom: 1px solid; padding-bottom: 15px;}
 #p2{right: 0; position: absolute;}
 .reserve-p{display: inline; font-weight: lighter; font-size: 13px;}
-#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 800px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
+#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 720px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
 #reserve-choice-poster{width: 100%; height: 380px; overflow: -webkit-paged-x;}
 #reserve-choice-poster ul{padding: 0; list-style: none; overflow: hidden;}
 .reserve-choice-poster{float: left; margin: 10px;}
 .area{width: 300px; height: 230px; border: 1px solid #e0e0e0; font-weight: 700; text-align: center; display: table-cell;}
 .reserve-text{margin-top: 50px;}
-#date{background-color: #f1f1f1; border: 1px solid #ccc; margin: 50px 0;}
-#date button{padding: 14px 16px; list-style: none; border: none; outline: none;}
-#date button:hover{background-color: #ddd;}
+.date{background-color: #f1f1f1; border: 1px solid #ccc; margin: 50px 0;}
+.date button{padding: 14px 16px; list-style: none; border: none; outline: none;}
+.date button:hover{background-color: #ddd;}
 #next{text-align: right;}
 #next button{padding: 14px 40px; border: none;}
 

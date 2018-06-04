@@ -25,8 +25,8 @@ function popupOpen(){
 				<img alt=""	src="http://caching.lottecinema.co.kr//Media/WebAdmin/23339c901d7942cc826af0dd27360b90.gif">
 			</a>
 		</div>
-		<div id="nav">
-			<ul>
+		<div class="header_ul">
+			<ul class="header_li nav">
 				<li><a href="http://localhost:8080/main/main/reserve.jsp">예매</a></li>
 				<li><a href="http://localhost:8080/main/main/movie.jsp">영화</a></li>
 				<li><a href="#">영화관</a></li>
@@ -34,9 +34,7 @@ function popupOpen(){
 				<li><a href="#">공지사항</a></li>
 				<li><a href="http://localhost:8080/main/main/customerService.jsp">고객센터</a></li>
 			</ul>
-		</div>
-		<div id="login">
-			<ul>
+			<ul class="header_li login">
 				<li><a href="http://localhost:8080/main/main/login.jsp">로그인</a></li>
 				<li><a href="http://localhost:8080/main/main/membership.jsp">회원가입</a></li>
 			</ul>
