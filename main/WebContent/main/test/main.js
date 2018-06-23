@@ -49,12 +49,11 @@ $(document).ready(function() {
 	alert("dma...");
 });
 
-// Get the element with id="defaultOpen" and click on it
-/*document.getElementById("defaultOpen").click();*/
 
-/*
- * 스틸컷 슬라이드 기능
+/* movieInfo.jsp
+ * 스틸컷 이미지 기능
  */
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

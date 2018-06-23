@@ -142,12 +142,9 @@
 						<h2>비밀번호를 입력해 주세요.</h2>
 						<form action="">
 							<input type="password" placeholder="비밀번호를 입력하세요.">
-							<input type="submit" onclick="alert('안돼 바꾸지마')" value="개인정보수정">
+							<input type="submit" onclick="alert('ㄴㅇㅇㄴ로오')" value="개인정보수정">
 						</form>
 					</div>
-					김상희 바보~~~ 아껴먹어야지~~~~~~~ 나눠먹어야지~~~~~~ 원샷해야지~~~ 철희형도 줘야지~~~~~아아아아아아아아~~
-					이이이이이이이이이이 ~~~~~ 숨어있다~ 찾았다~~~~~~ 숨어있네~~~ 요기 있네~ 도라이네~~~~~~
-					
 				</div>
 			</div>
 		</div>

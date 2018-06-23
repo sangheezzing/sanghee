@@ -15,9 +15,9 @@
 			<div id="movieInfo-main-text">
 				<h1>상세정보</h1>
 			</div>
-			<div id="movieInfo-wrap">
-				<div id="movieInfo-top">
-					<div id="movieInfo-left">
+			<div class="movieInfo-wrap">
+				<div class="movieInfo-top">
+					<div class="movieInfo-left">
 						<img alt="요거슨 데드풀2"
 							src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg">
 					</div>
@@ -55,43 +55,85 @@
 					<div id="London" class="tabcontent">
 
 						<!-- 슬라이드쇼 -->
-						<div class="slideshow-container">
-
-							<div class="mySlides fade">
-								<div class="numbertext">1 / 3</div>
-								<img
-									src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
-									style="width: 100%; height: 400px;">
-								<div class="text">Caption Text</div>
+						
+						<div class="container">
+							<div class="mySlides">
+								<div class="numbertext">1 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg">
 							</div>
 
-							<div class="mySlides fade">
-								<div class="numbertext">2 / 3</div>
-								<img
-									src="http://image2.megabox.co.kr/mop/poster/2018/D3/6C826C-44D8-46E5-B013-026B52D52477.large.jpg"
-									style="width: 100%; height: 400px;">
-								<div class="text">Caption Two</div>
+							<div class="mySlides">
+								<div class="numbertext">2 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg">
 							</div>
 
-							<div class="mySlides fade">
-								<div class="numbertext">3 / 3</div>
-								<img
-									src="http://image2.megabox.co.kr/mop/still/2018/9F/851A7C-A7D8-4ECB-BB22-977853853519.large.jpg"
-									style="width: 100%; height: 400px;">
-								<div class="text">Caption Three</div>
+							<div class="mySlides">
+								<div class="numbertext">3 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg">
 							</div>
 
-							<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a
-								class="next" onclick="plusSlides(1)">&#10095;</a>
+							<div class="mySlides">
+								<div class="numbertext">4 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/poster/2018/BC/2AE335-0D32-4088-92E5-C6E1312576C7.large.jpg">
+							</div>
 
+							<div class="mySlides">
+								<div class="numbertext">5 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/still/2018/1B/ED91C3-2FE3-4968-9D5F-4113F8DDA11C.large.jpg">
+							</div>
+
+							<div class="mySlides">
+								<div class="numbertext">6 / 6</div>
+								<img class="numbertext_img" 
+										src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg">
+							</div> 
+
+							<a class="prev" onclick="plusSlides(-1)">❮</a> <a class="next"
+								onclick="plusSlides(1)">❯</a>
+
+							<div class="caption-container">
+								<p id="caption"></p>
+							</div>
+
+							<div class="row">
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/poster/2018/0F/98EE60-5FB4-4A0E-A9ED-82A49C7AC7C8.large.jpg"
+										 onclick="currentSlide(1)" alt="스틸컷1">
+								</div>
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg"
+										 onclick="currentSlide(2)" alt="스틸컷2">
+								</div>
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/poster/2018/80/15DF49-4114-4F72-A1ED-A6AF89F55338.large.jpg"
+										 onclick="currentSlide(3)" alt="스틸컷3">
+								</div>
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/poster/2018/BC/2AE335-0D32-4088-92E5-C6E1312576C7.large.jpg"
+										 onclick="currentSlide(4)" alt="스틸컷4">
+								</div>
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/still/2018/1B/ED91C3-2FE3-4968-9D5F-4113F8DDA11C.large.jpg"
+										  onclick="currentSlide(5)" alt="스틸컷5">
+								</div>
+								<div class="column">
+									<img class="demo cursor"
+										src="http://image2.megabox.co.kr/mop/poster/2018/83/FACA53-FDE6-4013-8AEB-72BB7BB251EB.large.jpg"
+										 onclick="currentSlide(6)" alt="스틸컷6">
+								</div>
+							</div>
 						</div>
-						<br>
-
-						<div style="text-align: center">
-							<span class="dot" onclick="currentSlide(1)"></span> <span
-								class="dot" onclick="currentSlide(2)"></span> <span class="dot"
-								onclick="currentSlide(3)"></span>
-						</div>
+						<!-- 슬라이드쇼 end -->
 					</div>
 
 					<div id="Paris" class="tabcontent">
@@ -105,18 +147,18 @@
 					<div id="movieInfo-bottom">
 						<h2>한줄평</h2>
 						<div id="movieInfo-comment">
-							<span class="star-input">
-							<span class="input">
-							<input type="radio" name="star-input" value="1" id="p1">
-							<label for="p1">1</label>
-							<input type="radio" name="star-input" value="2" id="p2">
-							<label for="p2">2</label>
-							<input type="radio" name="star-input" value="3" id="p3">
-						 	<label for="p3">3</label>
-						 	<input type="radio" name="star-input" value="4" id="p4"> 
-						 	<label for="p4">4</label> 
-						 	<input type="radio" name="star-input" value="5" id="p5"> 
-						 	<label for="p5">5</label>
+							<span class="star-input"> 
+							<span class="input"> 
+								<input type="radio" name="star-input" value="1" id="p1"> 
+								<label for="p1">1</label> 
+								<input type="radio" name="star-input" value="2" id="p2"> 
+								<label for="p2">2</label> 
+								<input type="radio" name="star-input" value="3" id="p3"> 
+								<label for="p3">3</label> 
+								<input type="radio" name="star-input" value="4" id="p4"> 
+								<label for="p4">4</label> 
+								<input type="radio" name="star-input" value="5" id="p5"> 
+								<label for="p5">5</label>
 							</span>
 							</span>
 						</div>

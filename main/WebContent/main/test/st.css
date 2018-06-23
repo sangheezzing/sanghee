@@ -1,34 +1,34 @@
 /* 공통 css*/
 *{margin: 0;}
-th{padding: 15px 0 15px 13px;}
+th{padding: 15px 5px; background-color: #848484;}
 td{padding: 15px 5px;}
+tr{text-align: center;}
 .title{font-weight: 700;}
-
+.main-text{border-bottom: 1px solid; padding: 10px;}
 /*header*/
-#header{width: 100%; background-color: black;}
+#header{width: 100%; background-color: black; min-width: 1240px;}
 #header_inner{width: 1200px; position: relative; margin: 0 auto; padding: 20px;}
 #logo{position: absolute;}
 #logo img{width: 300px; height: 50px;}
 
+/*header_ui>.nav .login*/
+.header_ul{text-align: center;}
+.header_li{padding: 0;}
+.header_li li{display: inline; padding: 0 10px; line-height: 50px;}
+.header_li li a{color: white; text-decoration: none;}
+.header_li li a:hover{text-decoration: underline;}
 /*header-login*/
-#login ul{padding: 0; text-align: right; padding: 0;}
-#login ul li{display: inline; line-height: 50px; padding: 0 10px 0 10px;}
-#login ul li a{color: white; text-decoration: none;}
-#login ul li a:hover {text-decoration: underline;}
+.login{position:absolute; display:inline; text-align: right; width: 300px;}
 
 /*header-menu bar*/
-#nav{text-align: center;}
-#nav ul{list-style: none; padding: 0; position: absolute; left: 30%; }
-#nav ul li{display: inline; line-height: 50px; padding:0 10px 0 10px;}
-#nav ul li a{color: white; text-decoration: none; font-weight: bold;}
-#nav ul li a:hover {text-decoration: underline;}
+.nav{width:500px; margin: 0 auto; display: inline;}
 
 /*main*/
-#main{width: 100%;}
-#main_inner{width: 1100px; margin:auto;}
+.main{width: 100%; min-width: 1240px;}
+.main_inner{width: 1100px; margin:auto;}
 
 /*footer*/
-#footer{width: 100%; background-color: black; clear: both; margin-top: 100px;}
+#footer{width: 100%; background-color: black; clear: both; margin-top: 100px; min-width: 1240px;}
 #footer_inner{width: 970px; margin: 0 auto; padding: 30px 0 40px; line-height: 20px; position:relative;};
 #footer_logo{margin-bottom: 17px;}
 #footer_info{list-style: none; padding: 0; margin-bottom: 15px;}
@@ -40,8 +40,8 @@ td{padding: 15px 5px;}
 
 
 
-/* �꺆 �뒪���씪 吏��젙 */
-.tab {margin-bottom:50px; overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
+/* tab */
+.tab { overflow: hidden; border: 1px solid #ccc; background-color: #f1f1f1;}
 
 /* �꺆 �궡遺��쓽 踰꾪듉 �뒪���씪 吏��젙 */
 .tab button {background-color: inherit; float: left; border: none; outline: none; cursor: pointer;
@@ -54,64 +54,65 @@ td{padding: 15px 5px;}
 .tab button.active { background-color: #ccc;}
 
 /* �꺆 �궡�슜�쓽 �뒪���씪 吏��젙 */
- .tabcontent {display: none; padding: 6px 12px; border: 1px solid #ccc; border-top: none;}
+ .tabcontent {display: none; border: 1px solid #ccc; border-top: none; overflow: auto;}
 
 /* �뜝�뙠源띿삕 �뜝�룞�삕�뜝�룞�삕 �뜝�룞�삕���뜝�룞�삕 �뜝�룞�삕�뜝�룞�삕 */
 .topright {float: right; cursor: pointer; font-size: 28px;}
 
 .topright:hover {color: red;}
+/*tab end*/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 
+/*slide*/
 
-
-/*�뒳�씪�씠�뱶*/
-.mySlides {display: none}
-img {vertical-align: middle;}
-
-/* �뒳�씪�씠�뱶 �눥 container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+img {
+  vertical-align: middle;
 }
 
-/* �떎�쓬 諛� �씠�쟾 踰꾪듉 */
-.prev, .next {
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
+  font-size: 20px;
   border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
-/* �삤瑜몄そ�뿉 "�떎�쓬 踰꾪듉"諛곗튂 */
+/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* 留덉슦�뒪瑜� �삱由щ㈃ 寃��젙�깋 諛곌꼍�깋�쓣 �빟媛� �닾紐낇븯寃� 異붽� */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* 罹≪뀡 �뀓�뒪�듃 */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* �닽�옄 �뀓�뒪�듃 (1/3 etc) */
+/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -120,53 +121,44 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* �젏�뱾/湲�癒몃━ 湲고샇/ 吏��떆怨� */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* �럹�씠�듃 �븷�땲硫붿씠�뀡 */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.active,
+.demo:hover {
+  opacity: 1;
 }
-
-/* On smaller screens, decrease text size */
-/* @media only screen and (max-width: 300px;) {
-  .prev, .next,.text {font-size: 11px;} */
-/*�뜝�룞�삕�뜝�룞�삕 css �뜝�룞�삕*/
-
+/*slide end*/
 
 
 /*-----------------------------Index.jsp------------------------------------*/
 #content_inner{width: 1088px; margin: 0 auto;}
 
-#content_box1{width:1088px; overflow: hidden;}
-#content_box2{width:1088px; overflow: hidden;}
-#content_box3{width:1088px; overflow: hidden;}
+#content_box1{width:1152px; overflow: hidden;}
+#content_box2{width:1152px; overflow: hidden;}
+#content_box3{width:1152px; overflow: hidden;}
 
 .boxoffice_poster{overflow: hidden; list-style: none; padding: 0; width: 100%;}
 .boxoffice_poster li{float:left;display:table-cell; padding: 0 20px 0 20px;}
@@ -264,20 +256,40 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 #reserve-top-text{position: relative; border-bottom: 1px solid; padding-bottom: 15px;}
 #p2{right: 0; position: absolute;}
 .reserve-p{display: inline; font-weight: lighter; font-size: 13px;}
-#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 800px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
+#reserve-choice{margin-bottom: 50px; padding-left: 50px; height: 720px; overflow: auto; border-bottom: 1px solid #e0e0e0;}
 #reserve-choice-poster{width: 100%; height: 380px; overflow: -webkit-paged-x;}
 #reserve-choice-poster ul{padding: 0; list-style: none; overflow: hidden;}
 .reserve-choice-poster{float: left; margin: 10px;}
 .area{width: 300px; height: 230px; border: 1px solid #e0e0e0; font-weight: 700; text-align: center; display: table-cell;}
 .reserve-text{margin-top: 50px;}
-#date{background-color: #f1f1f1; border: 1px solid #ccc; margin: 50px 0;}
-#date button{padding: 14px 16px; list-style: none; border: none; outline: none;}
-#date button:hover{background-color: #ddd;}
+.date{background-color: #f1f1f1; border: 1px solid #ccc; margin: 50px 0;}
+.date button{padding: 14px 16px; list-style: none; border: none; outline: none;}
+.date button:hover{background-color: #ddd;}
 #next{text-align: right;}
 #next button{padding: 14px 40px; border: none;}
 
+
+/*--------------------------payment---------------------------------------*/
+#payment-main-container{width: 100%; margin: 30px 0 80px;}
+#payment-main-container-inner{padding: 10px 0; margin: 0 auto; width: 1100px;}
+#point{padding-left: 30px;}
+#point p{margin-bottom: 20px;}
+#point form{padding-left: 60px; margin-bottom: 50px;}
+div#point form label:nth-child(3){padding-left: 100px;}
+#point-txt{width: 200px;}
+#totalpay{padding-left: 30px;}
+#totalpay h2{margin-bottom: 20px;}
+#totalpay-center {margin-bottom: 50px;}
+#totalpay-center label:nth-child(1){margin:0 60px;}
+#totalpay-center label:nth-child(2){margin:0 60px;}
+#totalpay-center label:nth-child(3){margin:0 60px;}
+.font-weight{padding: 0 15px;}
+#finish{text-align: center;}
+#finish button{padding: 14px 16px; border: none;}
+#finish button:nth-child(1){background-color: #F7D358;}
+#finish button:nth-child(2){background-color: #e0e0e0;}
 /*---------------------------eventList.jsp------------------------------  */
-#event-main-text{border-bottom: 1px solid; padding: 10px;}
+
 #event-container{margin-top: 30px; margin-bottom: 80px; overflow: hidden;}
 #event-container-inner{padding-top: 30px; padding-bottom: 30px; overflow: hidden;}
 #event-list{width: 1000px; margin: 0 auto; overflow: hidden;}
@@ -293,16 +305,18 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 /*----------------------------eventContent.jsp----------------------------------*/
 #eventContent-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 50px;}
 #eventContent-content center p {margin-bottom: 30px;}
-#eventContent-content center button{width: 100px; height: 40px; margin: 0 10px 0 10px;}
-
+#eventContent-content center button{width: 100px; height: 40px; margin: 0 10px 0 10px; border: none;}
+#eventContent-content center button:nth-child(2){background-color: #F7D358;}
+#eventContent-content center button:nth-child(3){background-color: #e0e0e0;}
 
 
 /*-----------------------------myPage.jsp---------------------------------------*/
 #myPage-main-text{border-bottom: 1px solid; padding: 10px; margin-bottom: 20px;}
 #myPage-content{text-align: -webkit-center;}
-
-
-
+.mypage-table{width: 100%;}
+.mypage-table thead tr:nth-child(even){background-color: #D8D8D8;}
+/*개인정보 수정*/
+.revice-inner{width: 550px; padding:40px 0; margin: 0 auto; background-color: aqua; text-align: center;}
 
 
 /*-----------------------------login.jsp------------------------------------*/
@@ -334,3 +348,25 @@ star-input>.input.focus{outline:1px dotted #ddd;}
 .tb1_info_txt{background-color: #edebe1; border-top: 1px solid #b8b6aa; text-align: right;}
 .box-btn.qna_email{margin-top: 30px; text-align: right;}
 .round{text-align: right;}
+/*-------------------------------personalInformation.jsp----------------------------*/
+#person-info{float: right;}
+.must-img{margin-bottom: 10px;}
+.person-main{padding-top: 50px;}
+.person-main button{padding: 14px 30px; position: relative; left: 72%; margin-bottom: 50px;}
+.person-main label{margin-top: 3px;}
+.person-main table{width: 980px; margin:30px 0 20px; border-collapse: collapse;}
+.person-main table tbody tr{text-align: left; border-bottom: 1px solid;}
+.person-main table tbody tr:nth-child(1) {border-top: 1px solid;}
+.person-main table tbody th{background-color: #f8f8f8; width:250px; padding: 20px 16px;}
+.warning-msg{color: red; display:none;}
+
+/*회원 탈퇴*/
+div.getout{margin-bottom: 50px;}
+div.getout h1{padding:100px 0; text-align: center;}
+div.getout h2{border-top: 1px solid; padding-top: 20px;}
+div.getout button{padding: 14px 15px; position: relative; left: 81%;}
+/*----------------------------------------cinema.jsp-----------------------------------*/
+.cinema-img {padding-bottom: 50px;}
+.cinema-img img{width: 100%;}
+.cinema-area{padding-bottom: 50px;}
+.cinema-area{width: 1100px; margin: auto;}

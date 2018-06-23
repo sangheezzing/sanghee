@@ -47,9 +47,46 @@
 	</div>
 	<div id="payment-main-container">
 		<div id="payment-main-container-inner">
+			<div class="info">
+				<h2>영화 정보</h2>
+				<div class="info-wrap">
+					<div class="info-left">
+						<img alt="영화 이미지" src="http://image2.megabox.co.kr/mop/poster/2018/9B/9D74F8-6166-4838-8D85-B5D0D34C2A12.large.jpg">
+					</div>
+					<div class="info-txt">
+						<dl>
+							<dt>오션스</dt>
+							<dd>
+								<em>관람극장</em>
+								<strong>CGV 강남</strong>
+							</dd>
+							<dd>
+								<em>관람일시</em>
+								<strong class="txt-red">2018.06.23(토) 14:30</strong>
+							</dd>
+							<dd>
+								<em>상영관</em>
+								<strong>3관</strong>
+							</dd>
+							<dd>
+								<em>관람인원</em>
+								<strong>2명</strong>
+							</dd>
+							<dd>
+								<em>관람좌석</em>
+								<strong>C 08,C 09</strong>
+							</dd>
+							<dd>
+								<em>매수</em>
+								<strong>2매</strong>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
 			<div id="point">
 				<h2>포인트 사용</h2>
-				<p>영화 예매를 순서대로 진행해 주세요.</p>
+				<!-- <p>영화 예매를 순서대로 진행해 주세요.</p> -->
 				<form action="" method="get">
 					<label class="point-lb">총 포인트</label>
 					<input type="text" id="point-txt" name="point">
@@ -63,10 +100,10 @@
 				<div id="totalpay-center">
 					<label class="totalpay-lb">티켓수량<strong class="font-weight">2</strong>장</label>
 					<label class="totalpay-lb">사용한 포인트<strong class="font-weight">2000</strong>POINT</label>
-					<label class="totalpay-lb">결제할 금액 <strong class="font-weight">1,000,000</strong>원</label>
+					<label class="totalpay-lb">결제할 금액 <strong class="font-weight txt-red">1,000,000</strong>원</label>
 				</div>		
 			</div>
-			<div id="finish">
+			<div class="finish">
 				<button>결제 완료</button>
 				<button>취소</button>
 			</div>
